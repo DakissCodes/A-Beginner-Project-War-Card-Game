@@ -92,8 +92,8 @@ while game:
             player1.append(card2)
             print(f'Len of player 1: {str(len(player1))}')
             print(f'Len of player 2: {str(len(player2))}')
-            print('player 1:' + card1)
-            print('plaeyr 2:' + card2)
+            print('Player 1: ' + card1)
+            print('Player 2: ' + card2)
             Funcs.cont()
         elif win == 2:
             rounds += 1
@@ -102,19 +102,19 @@ while game:
             player2.append(card2)
             print(f'Len of player 1: {str(len(player1))}')
             print(f'Len of player 2: {str(len(player2))}')
-            print('player 1:' + card1)
-            print('plaeyr 2:' + card2)
+            print('Player 1: ' + card1)
+            print('Player 2: ' + card2)
             Funcs.cont()
         elif win == 3:
             play = False
         if len(player1) == 0:
-            print('player one wins the whole game!')
+            print('Player one wins the whole game!')
             break
         elif len(player2) == 0:
-            print('player two wins the whole game!')
+            print('Player two wins the whole game!')
             break
     print(f'Number of rounds: {str(rounds)}')
-    run_again = input('again?: ')
+    run_again = input('Again?: ')
     if run_again.lower()[0] == 'y':
         continue
     else:
